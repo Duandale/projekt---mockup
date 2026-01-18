@@ -1,0 +1,123 @@
+/* Grundlayout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  color: #222;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* Container zentriert den Inhalt */
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Kopfbereich */
+.header {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  color: #fff;
+  padding: 20px 0;
+  border-bottom: 4px solid #fff;
+}
+
+/* Titelgestaltung */
+.title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  opacity: 0.9;
+}
+
+/* Navigation */
+.nav {
+  margin-top: 10px;
+}
+
+/* Link-Styling in der Navigation */
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.nav a:hover {
+  opacity: 0.7;
+}
+
+/* Card-Layout für Abschnitte */
+.card {
+  background: white;
+  border-left: 5px solid #fee140;
+  border-radius: 8px;
+  padding: 18px;
+  margin-top: 18px;
+  box-shadow: 0 4px 6px rgba(254, 225, 64, 0.1);
+}
+
+/* Grid-Layout für Beleg-Boxen */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 12px;
+}
+
+/* Einzelne Box in der Grid-Struktur */
+.box {
+  border: 2px solid #fa709a;
+  border-radius: 8px;
+  padding: 14px;
+  background: #fffafd;
+  transition: transform 0.2s ease;
+}
+
+.box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(250, 112, 154, 0.2);
+}
+
+/* Button-Styling */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: #fa709a;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #fee140;
+  color: #222;
+  transform: translateX(3px);
+}
+
+/* Code-Elemente im Text */
+code {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #fa709a;
+}
+
+/* Footer */
+.footer {
+  margin-top: 18px;
+  padding: 12px 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
